@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог недвижимости — Авангард Реалти</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">АВАНГАРД<span>РЕАЛТИ</span></a>
+  <a class="whatsapp" href="https://wa.me/77056207681">WhatsApp</a>
+</header>
+
+<section class="filters">
+  <select id="typeFilter">
+    <option value="">Тип недвижимости</option>
+    <option value="Квартира">Квартира</option>
+    <option value="Дом">Дом</option>
+  </select>
+
+  <select id="roomsFilter">
+    <option value="">Комнаты</option>
+    <option value="1">1+</option>
+    <option value="2">2+</option>
+    <option value="3">3+</option>
+  </select>
+</section>
+
+<section class="catalog" id="catalog">
+  <!-- карточки через JS -->
+</section>
+
+<footer class="footer">
+  © Авангард Реалти, Павлодар
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>

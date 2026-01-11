@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Объект недвижимости</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="catalog.html" class="back">← Назад</a>
+</header>
+
+<section class="gallery">
+  <img src="assets/images/flat1.jpg" class="main-image" id="mainImage">
+
+  <div class="thumbs">
+    <img src="assets/images/flat1.jpg" onclick="changeImage(this)">
+    <img src="assets/images/flat2.jpg" onclick="changeImage(this)">
+    <img src="assets/images/flat3.jpg" onclick="changeImage(this)">
+  </div>
+</section>
+
+<section class="object-info">
+  <h1>3-комнатная квартира</h1>
+  <p>100 м² · Павлодар</p>
+  <strong>69 000 000 ₸</strong>
+
+  <a href="tel:+77000000000" class="btn-main">Записаться на просмотр</a>
+  <a href="#" class="btn-secondary">Получить консультацию</a>
+</section>
+
+<div class="mobile-bar">
+  <a href="tel:+77000000000" class="btn-call">Позвонить</a>
+  <a href="#" class="btn-request">Оставить заявку</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

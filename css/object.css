@@ -1,0 +1,17 @@
+.object {
+  padding: 16px;
+}
+
+.object h1 {
+  margin: 12px 0;
+}
+
+.object strong {
+  font-size: 20px;
+  color: #ff8a00;
+}
+
+.object .info {
+  opacity: 0.8;
+  margin: 12px 0;
+}

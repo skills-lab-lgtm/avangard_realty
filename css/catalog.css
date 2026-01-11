@@ -1,0 +1,53 @@
+.filters {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+}
+
+.filters select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.catalog {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 12px;
+}
+
+.card-body h3 {
+  font-size: 16px;
+}
+
+.card-body p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.card-body strong {
+  color: #ff8a00;
+}
+
+@media (min-width: 768px) {
+  .catalog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
